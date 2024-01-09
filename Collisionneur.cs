@@ -5,11 +5,6 @@ namespace TestCollision
 {
     internal class Collisionneur
     {
-        /*Program _program = new Program();
         
-        public void Collision()
-        {
-            if()
-        }*/
     }
 }

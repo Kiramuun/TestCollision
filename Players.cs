@@ -27,10 +27,5 @@ namespace TestCollision
             Mouv();
             Render();
         }
-
-        /*public void Collision()
-        {
-            if(Player().position.X)
-        }*/
     }
 }
