@@ -7,12 +7,16 @@ namespace TestCollision
     internal class Murs
     {
         public Vector2 axeMurs;
-        ushort largMurs;
-        
+        public ushort largMurs { get; private set; }
+
         public Murs(Vector2 _pos, ushort _larg)
         {
             axeMurs = _pos;
             largMurs = _larg;
+        }
+
+        public Murs()
+        {
         }
 
         public void Draw()
