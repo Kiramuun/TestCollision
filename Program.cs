@@ -35,7 +35,7 @@ while (!WindowShouldClose())
 
         if(diffX > 100)
         {
-            diffX = 2 * (main.largMurs*3) / diffX;
+            diffX = 2 * (main.largMurs*2) / diffX;
             p1.xPos -= diffX;
         }
 
